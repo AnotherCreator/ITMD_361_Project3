@@ -6,11 +6,10 @@
   <link rel=icon href="assets/images/personal_logo.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <script async src="js/script.js"></script>
+  <script async src="js/googleapi.js"></script>
 </head>
 <body>
 <div class="top_banner_and_nav">
-  <img src="assets/images/resume_banner_solid.png" alt="Personal logo">
   <nav class="top_navigation">
     <div class="mid_links">
       <ul>
@@ -22,16 +21,10 @@
     </div>
   </nav>
 </div>
-<div class="banner_contact_info">
-  <ul>
-    <li>EMAIL: <a href="https://gmail.com">jreginaldo@hawk.iit.edu</a></li>
-    <li>GITHUB: <a href="https://github.com/AnotherCreator">AnotherCreator</a></li>
-    <li>LINKEDIN: <a href="https://www.linkedin.com/in/josh-reginaldo-4115b0188/">Josh Reginaldo</a></li>
-  </ul>
-</div>
-<div class="banner_resume_intro">
-  <ul>
-    <li><span id="before_name">An Excerpt Of The</span></li>
-    <li><span id="name">Bee Movie Script</span></li>
-  </ul>
-</div>
+<!--The div element for the map -->
+<div id="map"></div>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjMR6s3fFlJvrT42wHTQlw8CMc5AAxP5c&callback=initMap&v=weekly"
+  async
+></script>
+</body>
