@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Momcake;
+    src: url(../assets/fonts/Momcake/MomcakeBold-WyonA.otf);
+}
+
+@font-face {
+    font-family: MomcakeThin;
+    src: url(../assets/fonts/Momcake/MomcakeThin-9Y6aZ.otf);
+}
+
+body {
+    font-family: Momcake, sans-serif, Monospace;
+    font-size: 1.5rem;
+    background: #ff8353;
+}
+
+/* ================ TOP NAV AND IMAGE ================ */
+.top_banner_and_nav {
+    margin: auto;
+    max-width: 100%;
+    max-height: 25%;
+    position: relative;
+}
+
+.mid_links {
+    position: absolute;
+    top: 1rem;
+    left: 40rem;
+    text-align: center;
+}
+
+.mid_links ul {
+    list-style-type: none; /* Remove bullets from list */
+    display: inline-block; /* Helps display links horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+.mid_links li {
+    float: left; /* Display links horizontally */
+}
+
+.mid_links a {
+    color: white;
+    text-decoration: none;
+}
+
+.mid_links a:hover {
+    text-decoration: underline;
+}
+
+.mid_links ul li {
+    margin: 0 2rem; /* Add spacing between list values */
+}
+
+#onpage {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* ================ CONTACT INFO ================ */
+.banner_contact_info {
+    position: absolute;
+    top: 27rem;
+    left: 35rem;
+    text-align: center;
+}
+
+.banner_contact_info ul {
+    list-style-type: none; /* Remove bullets from list */
+    display: inline-block; /* Helps display links horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+.banner_contact_info li {
+    float: left;
+    color: white;
+}
+
+.banner_contact_info a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner_contact_info a:hover {
+    text-decoration: underline;
+}
+
+.banner_contact_info ul li {
+    margin: 0 .5rem; /* Add spacing between list values */
+}
+
+/* ================ RESUME NAME ================ */
+
+.banner_resume_intro {
+    position: absolute;
+    top: 9.5rem;
+    left: 47rem;
+    text-align: left;
+}
+
+.banner_resume_intro ul {
+    list-style-type: none; /* Remove bullets from list */
+    display: inline-block; /* Helps display links horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+.banner_resume_intro li {
+    color: white;
+}
+
+.banner_resume_intro #before_name {
+    font-family: MomcakeThin, sans-serif;
+    font-size: 3rem;
+}
+
+.banner_resume_intro #name {
+    font-family: Momcake, sans-serif;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+/* ================ RESUME BODY ================ */
+
+.resume {
+    margin: 5rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    text-align: center;
+}
+
+.resume ul {
+    list-style-type: none;
+}
+
+.main_header {
+    text-decoration: underline;
+    color: white;
+}
+
+.uni_name {
+    text-decoration: underline;
+    color: white;
+}
+
+/* ================ BOOKS ================ */
+
+.section_body {
+    margin: 5rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    text-align: center;
+}
