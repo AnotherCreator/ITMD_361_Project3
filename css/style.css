@@ -15,42 +15,48 @@ body {
 }
 
 /* ================ TOP NAV AND IMAGE ================ */
-.top_banner_and_nav {
-    margin: auto;
-    max-width: 100%;
-    max-height: 25%;
-    position: relative;
+.top_navigation {
+    background: blue;
+    overflow: hidden;
+}
+
+.top_navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 .mid_links {
-    position: absolute;
-    top: 1rem;
-    left: 36rem;
+    width: 100%;
+    position: relative;.
     text-align: center;
+    display: block;
 }
 
 .mid_links ul {
-    list-style-type: none; /* Remove bullets from list */
-    display: inline-block; /* Helps display links horizontally */
-    padding: 0;
+    list-style-type: none;
     margin: 0;
-}
-
-.mid_links li {
-    float: left; /* Display links horizontally */
-}
-
-.mid_links a {
-    color: white;
-    text-decoration: none;
-}
-
-.mid_links a:hover {
-    text-decoration: underline;
+    padding: 0;
+    position: relative;
+    float: left;
+    left: 50%;
 }
 
 .mid_links ul li {
-    margin: 0 2rem; /* Add spacing between list values */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    right: 50%;
+}
+
+.mid_links ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
 }
 
 #onpage {
@@ -160,7 +166,7 @@ body {
 /* Set the size of the div element that contains the map */
 #map {
     top: 5rem;
-    height: 400px;
+    height: 50rem;
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
